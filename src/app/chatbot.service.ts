@@ -20,7 +20,7 @@ export class ChatbotService {
 
 
 baseURL: string ="https://api.dialogflow.com/v1/query?v=20150910";
-token1: string = '195a70973cbd48cfa8916fc64750b935'; // use your token from dialog flow
+token1: string = '' // use your token from dialog flow
 
   constructor(private http: HttpClient){}
 
