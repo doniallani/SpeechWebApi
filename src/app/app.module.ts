@@ -13,7 +13,7 @@ import { HttpClientModule } from '@angular/common/http';
     HttpClientModule,
     FormsModule,
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
-    BrowserTransferStateModule
+    BrowserTransferStateModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
